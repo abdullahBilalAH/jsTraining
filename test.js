@@ -21,3 +21,6 @@ function terms(char) {
     else
         return false;
 }
+console.log(isPalindrome('A man, a plan, a canal, Panama!')); // Output: true
+console.log(isPalindrome('Race car')); // Output: true
+console.log(isPalindrome('Hello, world!')); // Output: false
