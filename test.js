@@ -7,7 +7,7 @@ function isPalindrome(string) {
     }
     var flag1 = 0;
     var flag2 = str.length - 1;
-    while (flag1 < flag2) {
+    for (;flag1 < flag2;) {
         if (str[flag1] !== str[flag2])
             return false;
         flag1++;
