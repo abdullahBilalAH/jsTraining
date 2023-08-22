@@ -11,7 +11,7 @@ function checkPrime(num) {
 //test
 for(var c=-100;c<=100;c++){
     if(checkPrime(c))
-        console.log(c+ "is prime");
+        console.log(c+ " is prime");
     else
-        console.log(c+ "is not prime");
+        console.log(c+ " is not prime");
 }
