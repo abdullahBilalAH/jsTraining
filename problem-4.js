@@ -1,7 +1,3 @@
-/*I wanted to use the 'set', but when I asked GPT,
-it considered it as a built-in function. 
-It's more likely to be a built-in data structure, but just to be cautious,
-I wrote the code in this way.*/
 const arrOfNum = [1, 2, 2, 4, 5, 6, 6];
 const getUniqueValues = (arrOfNum) => {
     let ar =[];
