@@ -8,8 +8,8 @@ const getUniqueValues = (arrOfNum) => {
     let check=[];
     for(let c=0;c<arrOfNum.length;c++){
         if(check[arrOfNum[c]]==undefined){
-        ar[ar.length]=arrOfNum[c];
-        check[arrOfNum[c]]=0;
+            ar[ar.length]=arrOfNum[c];
+            check[arrOfNum[c]]=0;
         }
     }
     return ar;
