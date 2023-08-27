@@ -16,4 +16,4 @@ function check(ar,value){
     return false;
 }
 console.log(getUniqueValues(arrOfNum));// [1, 2, 4, 5, 6]
-//time complexity is n^2
+//time complexity is O(n^2)
